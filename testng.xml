@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+        <test name="Report">
+                <classes>
+                        <class name="app.getxray.xray.testng.tests.EnhancedTestNGReportTests" />
+                        <class name="app.getxray.xray.testng.tests.XrayJsonReportTests" />
+                </classes>
+        </test>
+
+</suite>
